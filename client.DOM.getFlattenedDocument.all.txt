@@ -1,0 +1,5079 @@
+
+> taiko-coverage-explorer@0.1.0 test /Users/scott/code/local/taiko-coverage-explorer
+> taiko test/test.js
+
+[32m ✔ Browser opened[39m
+[32m ✔ Navigated to URL http://thirstyhead.com/groceryworks[39m
+{
+  "nodes": [
+    {
+      "nodeId": 7,
+      "parentId": 6,
+      "backendNodeId": 3,
+      "nodeType": 10,
+      "nodeName": "html",
+      "localName": "",
+      "nodeValue": "",
+      "publicId": "",
+      "systemId": ""
+    },
+    {
+      "nodeId": 10,
+      "parentId": 9,
+      "backendNodeId": 7,
+      "nodeType": 1,
+      "nodeName": "META",
+      "localName": "meta",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "charset",
+        "utf-8"
+      ]
+    },
+    {
+      "nodeId": 12,
+      "parentId": 11,
+      "backendNodeId": 9,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "GroceryWorks"
+    },
+    {
+      "nodeId": 11,
+      "parentId": 9,
+      "backendNodeId": 8,
+      "nodeType": 1,
+      "nodeName": "TITLE",
+      "localName": "title",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 13,
+      "parentId": 9,
+      "backendNodeId": 10,
+      "nodeType": 1,
+      "nodeName": "META",
+      "localName": "meta",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "name",
+        "viewport",
+        "content",
+        "width=device-width, initial-scale=1"
+      ]
+    },
+    {
+      "nodeId": 14,
+      "parentId": 9,
+      "backendNodeId": 11,
+      "nodeType": 1,
+      "nodeName": "META",
+      "localName": "meta",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "name",
+        "author",
+        "content",
+        "Scott Davis <scott.davis@thoughtworks.com>"
+      ]
+    },
+    {
+      "nodeId": 15,
+      "parentId": 9,
+      "backendNodeId": 12,
+      "nodeType": 1,
+      "nodeName": "META",
+      "localName": "meta",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "name",
+        "description",
+        "content",
+        "GroceryWorks is a fictional grocery store website."
+      ]
+    },
+    {
+      "nodeId": 16,
+      "parentId": 9,
+      "backendNodeId": 13,
+      "nodeType": 8,
+      "nodeName": "#comment",
+      "localName": "",
+      "nodeValue": " Polyfill for dialog element "
+    },
+    {
+      "nodeId": 17,
+      "parentId": 9,
+      "backendNodeId": 14,
+      "nodeType": 1,
+      "nodeName": "LINK",
+      "localName": "link",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "rel",
+        "stylesheet",
+        "href",
+        "css/dialog-polyfill.css"
+      ]
+    },
+    {
+      "nodeId": 18,
+      "parentId": 9,
+      "backendNodeId": 15,
+      "nodeType": 1,
+      "nodeName": "SCRIPT",
+      "localName": "script",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "defer",
+        "",
+        "src",
+        "js/dialog-polyfill.js"
+      ]
+    },
+    {
+      "nodeId": 19,
+      "parentId": 9,
+      "backendNodeId": 16,
+      "nodeType": 1,
+      "nodeName": "LINK",
+      "localName": "link",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "rel",
+        "stylesheet",
+        "href",
+        "css/index.css"
+      ]
+    },
+    {
+      "nodeId": 20,
+      "parentId": 9,
+      "backendNodeId": 17,
+      "nodeType": 1,
+      "nodeName": "SCRIPT",
+      "localName": "script",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "defer",
+        "",
+        "src",
+        "js/index.js"
+      ]
+    },
+    {
+      "nodeId": 21,
+      "parentId": 9,
+      "backendNodeId": 18,
+      "nodeType": 8,
+      "nodeName": "#comment",
+      "localName": "",
+      "nodeValue": " Template for adding items to the cart "
+    },
+    {
+      "nodeId": 22,
+      "parentId": 9,
+      "backendNodeId": 19,
+      "nodeType": 1,
+      "nodeName": "TEMPLATE",
+      "localName": "template",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "id",
+        "cart-item"
+      ],
+      "templateContent": {
+        "nodeId": 23,
+        "backendNodeId": 20,
+        "nodeType": 11,
+        "nodeName": "#document-fragment",
+        "localName": "",
+        "nodeValue": "",
+        "childNodeCount": 2
+      }
+    },
+    {
+      "nodeId": 9,
+      "parentId": 8,
+      "backendNodeId": 5,
+      "nodeType": 1,
+      "nodeName": "HEAD",
+      "localName": "head",
+      "nodeValue": "",
+      "childNodeCount": 12,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 27,
+      "parentId": 26,
+      "backendNodeId": 23,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "Grocery"
+    },
+    {
+      "nodeId": 26,
+      "parentId": 25,
+      "backendNodeId": 22,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "logo-first"
+      ]
+    },
+    {
+      "nodeId": 29,
+      "parentId": 28,
+      "backendNodeId": 25,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "Works"
+    },
+    {
+      "nodeId": 28,
+      "parentId": 25,
+      "backendNodeId": 24,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "logo-second"
+      ]
+    },
+    {
+      "nodeId": 25,
+      "parentId": 24,
+      "backendNodeId": 21,
+      "nodeType": 1,
+      "nodeName": "HEADER",
+      "localName": "header",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 31,
+      "parentId": 30,
+      "backendNodeId": 27,
+      "nodeType": 8,
+      "nodeName": "#comment",
+      "localName": "",
+      "nodeValue": " Sidebar "
+    },
+    {
+      "nodeId": 34,
+      "parentId": 33,
+      "backendNodeId": 30,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "radio",
+        "id",
+        "beans",
+        "name",
+        "item-filter",
+        "value",
+        "beans",
+        "checked",
+        ""
+      ]
+    },
+    {
+      "nodeId": 36,
+      "parentId": 35,
+      "backendNodeId": 32,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "Beans"
+    },
+    {
+      "nodeId": 35,
+      "parentId": 33,
+      "backendNodeId": 31,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "for",
+        "beans"
+      ]
+    },
+    {
+      "nodeId": 37,
+      "parentId": 33,
+      "backendNodeId": 33,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "radio",
+        "id",
+        "nuts",
+        "name",
+        "item-filter",
+        "value",
+        "nuts"
+      ]
+    },
+    {
+      "nodeId": 39,
+      "parentId": 38,
+      "backendNodeId": 35,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "Nuts"
+    },
+    {
+      "nodeId": 38,
+      "parentId": 33,
+      "backendNodeId": 34,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "for",
+        "nuts"
+      ]
+    },
+    {
+      "nodeId": 40,
+      "parentId": 33,
+      "backendNodeId": 36,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "radio",
+        "id",
+        "pasta",
+        "name",
+        "item-filter",
+        "value",
+        "pasta"
+      ]
+    },
+    {
+      "nodeId": 42,
+      "parentId": 41,
+      "backendNodeId": 38,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "Pasta"
+    },
+    {
+      "nodeId": 41,
+      "parentId": 33,
+      "backendNodeId": 37,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "for",
+        "pasta"
+      ]
+    },
+    {
+      "nodeId": 43,
+      "parentId": 33,
+      "backendNodeId": 39,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "radio",
+        "id",
+        "produce",
+        "name",
+        "item-filter",
+        "value",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 45,
+      "parentId": 44,
+      "backendNodeId": 41,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "Produce"
+    },
+    {
+      "nodeId": 44,
+      "parentId": 33,
+      "backendNodeId": 40,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "for",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 33,
+      "parentId": 32,
+      "backendNodeId": 29,
+      "nodeType": 1,
+      "nodeName": "DIV",
+      "localName": "div",
+      "nodeValue": "",
+      "childNodeCount": 8,
+      "children": [],
+      "attributes": [
+        "class",
+        "switch-field"
+      ]
+    },
+    {
+      "nodeId": 32,
+      "parentId": 30,
+      "backendNodeId": 28,
+      "nodeType": 1,
+      "nodeName": "DIV",
+      "localName": "div",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "sidebar"
+      ]
+    },
+    {
+      "nodeId": 46,
+      "parentId": 30,
+      "backendNodeId": 42,
+      "nodeType": 8,
+      "nodeName": "#comment",
+      "localName": "",
+      "nodeValue": " Main "
+    },
+    {
+      "nodeId": 49,
+      "parentId": 48,
+      "backendNodeId": 45,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "flax-seeds"
+      ]
+    },
+    {
+      "nodeId": 50,
+      "parentId": 48,
+      "backendNodeId": 46,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/beans/flax-seeds_200px.jpg",
+        "alt",
+        "Flax Seeds"
+      ]
+    },
+    {
+      "nodeId": 52,
+      "parentId": 51,
+      "backendNodeId": 48,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Flax Seeds\n            "
+    },
+    {
+      "nodeId": 55,
+      "parentId": 53,
+      "backendNodeId": 51,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$0.59 / lb"
+    },
+    {
+      "nodeId": 53,
+      "parentId": 51,
+      "backendNodeId": 49,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ],
+      "pseudoElements": [
+        {
+          "nodeId": 54,
+          "backendNodeId": 50,
+          "nodeType": 1,
+          "nodeName": "<pseudo:before>",
+          "localName": "<pseudo:before>",
+          "nodeValue": "",
+          "childNodeCount": 0,
+          "attributes": [],
+          "pseudoType": "before"
+        }
+      ]
+    },
+    {
+      "nodeId": 51,
+      "parentId": 48,
+      "backendNodeId": 47,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 48,
+      "parentId": 47,
+      "backendNodeId": 44,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item show",
+        "data-category",
+        "beans"
+      ]
+    },
+    {
+      "nodeId": 57,
+      "parentId": 56,
+      "backendNodeId": 53,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "french-green-lentils"
+      ]
+    },
+    {
+      "nodeId": 58,
+      "parentId": 56,
+      "backendNodeId": 54,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/beans/french-green-lentils_200px.jpg",
+        "alt",
+        "French Green Lentils"
+      ]
+    },
+    {
+      "nodeId": 60,
+      "parentId": 59,
+      "backendNodeId": 56,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            French Green Lentils\n            "
+    },
+    {
+      "nodeId": 63,
+      "parentId": 61,
+      "backendNodeId": 59,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$0.99 / lb"
+    },
+    {
+      "nodeId": 61,
+      "parentId": 59,
+      "backendNodeId": 57,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ],
+      "pseudoElements": [
+        {
+          "nodeId": 62,
+          "backendNodeId": 58,
+          "nodeType": 1,
+          "nodeName": "<pseudo:before>",
+          "localName": "<pseudo:before>",
+          "nodeValue": "",
+          "childNodeCount": 0,
+          "attributes": [],
+          "pseudoType": "before"
+        }
+      ]
+    },
+    {
+      "nodeId": 59,
+      "parentId": 56,
+      "backendNodeId": 55,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 56,
+      "parentId": 47,
+      "backendNodeId": 52,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item show",
+        "data-category",
+        "beans"
+      ]
+    },
+    {
+      "nodeId": 65,
+      "parentId": 64,
+      "backendNodeId": 61,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "green-split-peas"
+      ]
+    },
+    {
+      "nodeId": 66,
+      "parentId": 64,
+      "backendNodeId": 62,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/beans/green-split-peas_200px.jpg",
+        "alt",
+        "Green Split Peas"
+      ]
+    },
+    {
+      "nodeId": 68,
+      "parentId": 67,
+      "backendNodeId": 64,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Green Split Peas\n            "
+    },
+    {
+      "nodeId": 71,
+      "parentId": 69,
+      "backendNodeId": 67,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$0.59 / lb"
+    },
+    {
+      "nodeId": 69,
+      "parentId": 67,
+      "backendNodeId": 65,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ],
+      "pseudoElements": [
+        {
+          "nodeId": 70,
+          "backendNodeId": 66,
+          "nodeType": 1,
+          "nodeName": "<pseudo:before>",
+          "localName": "<pseudo:before>",
+          "nodeValue": "",
+          "childNodeCount": 0,
+          "attributes": [],
+          "pseudoType": "before"
+        }
+      ]
+    },
+    {
+      "nodeId": 67,
+      "parentId": 64,
+      "backendNodeId": 63,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 64,
+      "parentId": 47,
+      "backendNodeId": 60,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item show",
+        "data-category",
+        "beans"
+      ]
+    },
+    {
+      "nodeId": 73,
+      "parentId": 72,
+      "backendNodeId": 69,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "lentils"
+      ]
+    },
+    {
+      "nodeId": 74,
+      "parentId": 72,
+      "backendNodeId": 70,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/beans/lentils_200px.jpg",
+        "alt",
+        "Lentils"
+      ]
+    },
+    {
+      "nodeId": 76,
+      "parentId": 75,
+      "backendNodeId": 72,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Lentils\n            "
+    },
+    {
+      "nodeId": 79,
+      "parentId": 77,
+      "backendNodeId": 75,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$0.79 / lb"
+    },
+    {
+      "nodeId": 77,
+      "parentId": 75,
+      "backendNodeId": 73,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ],
+      "pseudoElements": [
+        {
+          "nodeId": 78,
+          "backendNodeId": 74,
+          "nodeType": 1,
+          "nodeName": "<pseudo:before>",
+          "localName": "<pseudo:before>",
+          "nodeValue": "",
+          "childNodeCount": 0,
+          "attributes": [],
+          "pseudoType": "before"
+        }
+      ]
+    },
+    {
+      "nodeId": 75,
+      "parentId": 72,
+      "backendNodeId": 71,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 72,
+      "parentId": 47,
+      "backendNodeId": 68,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item show",
+        "data-category",
+        "beans"
+      ]
+    },
+    {
+      "nodeId": 81,
+      "parentId": 80,
+      "backendNodeId": 77,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "pinto-beans"
+      ]
+    },
+    {
+      "nodeId": 82,
+      "parentId": 80,
+      "backendNodeId": 78,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/beans/pinto-beans_200px.jpg",
+        "alt",
+        "Pinto Beans"
+      ]
+    },
+    {
+      "nodeId": 84,
+      "parentId": 83,
+      "backendNodeId": 80,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Pinto Beans\n            "
+    },
+    {
+      "nodeId": 87,
+      "parentId": 85,
+      "backendNodeId": 83,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$0.79 / lb"
+    },
+    {
+      "nodeId": 85,
+      "parentId": 83,
+      "backendNodeId": 81,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ],
+      "pseudoElements": [
+        {
+          "nodeId": 86,
+          "backendNodeId": 82,
+          "nodeType": 1,
+          "nodeName": "<pseudo:before>",
+          "localName": "<pseudo:before>",
+          "nodeValue": "",
+          "childNodeCount": 0,
+          "attributes": [],
+          "pseudoType": "before"
+        }
+      ]
+    },
+    {
+      "nodeId": 83,
+      "parentId": 80,
+      "backendNodeId": 79,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 80,
+      "parentId": 47,
+      "backendNodeId": 76,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item show",
+        "data-category",
+        "beans"
+      ]
+    },
+    {
+      "nodeId": 89,
+      "parentId": 88,
+      "backendNodeId": 85,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "white-navy-beans"
+      ]
+    },
+    {
+      "nodeId": 90,
+      "parentId": 88,
+      "backendNodeId": 86,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/beans/white-navy-beans_200px.jpg",
+        "alt",
+        "White Navy Beans"
+      ]
+    },
+    {
+      "nodeId": 92,
+      "parentId": 91,
+      "backendNodeId": 88,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            White Navy Beans\n            "
+    },
+    {
+      "nodeId": 95,
+      "parentId": 93,
+      "backendNodeId": 91,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$0.79 / lb"
+    },
+    {
+      "nodeId": 93,
+      "parentId": 91,
+      "backendNodeId": 89,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ],
+      "pseudoElements": [
+        {
+          "nodeId": 94,
+          "backendNodeId": 90,
+          "nodeType": 1,
+          "nodeName": "<pseudo:before>",
+          "localName": "<pseudo:before>",
+          "nodeValue": "",
+          "childNodeCount": 0,
+          "attributes": [],
+          "pseudoType": "before"
+        }
+      ]
+    },
+    {
+      "nodeId": 91,
+      "parentId": 88,
+      "backendNodeId": 87,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 88,
+      "parentId": 47,
+      "backendNodeId": 84,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item show",
+        "data-category",
+        "beans"
+      ]
+    },
+    {
+      "nodeId": 97,
+      "parentId": 96,
+      "backendNodeId": 93,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "yellow-split-peas"
+      ]
+    },
+    {
+      "nodeId": 98,
+      "parentId": 96,
+      "backendNodeId": 94,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/beans/yellow-split-peas_200px.jpg",
+        "alt",
+        "Yellow Split Peas"
+      ]
+    },
+    {
+      "nodeId": 100,
+      "parentId": 99,
+      "backendNodeId": 96,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Yellow Split Peas\n            "
+    },
+    {
+      "nodeId": 103,
+      "parentId": 101,
+      "backendNodeId": 99,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$0.59 / lb"
+    },
+    {
+      "nodeId": 101,
+      "parentId": 99,
+      "backendNodeId": 97,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ],
+      "pseudoElements": [
+        {
+          "nodeId": 102,
+          "backendNodeId": 98,
+          "nodeType": 1,
+          "nodeName": "<pseudo:before>",
+          "localName": "<pseudo:before>",
+          "nodeValue": "",
+          "childNodeCount": 0,
+          "attributes": [],
+          "pseudoType": "before"
+        }
+      ]
+    },
+    {
+      "nodeId": 99,
+      "parentId": 96,
+      "backendNodeId": 95,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 96,
+      "parentId": 47,
+      "backendNodeId": 92,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item show",
+        "data-category",
+        "beans"
+      ]
+    },
+    {
+      "nodeId": 105,
+      "parentId": 104,
+      "backendNodeId": 101,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "peanuts"
+      ]
+    },
+    {
+      "nodeId": 106,
+      "parentId": 104,
+      "backendNodeId": 102,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/nuts/peanuts_200px.jpg",
+        "alt",
+        "Peanuts"
+      ]
+    },
+    {
+      "nodeId": 108,
+      "parentId": 107,
+      "backendNodeId": 104,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Peanuts\n            "
+    },
+    {
+      "nodeId": 110,
+      "parentId": 109,
+      "backendNodeId": 106,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$1.89 / lb"
+    },
+    {
+      "nodeId": 109,
+      "parentId": 107,
+      "backendNodeId": 105,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 107,
+      "parentId": 104,
+      "backendNodeId": 103,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 104,
+      "parentId": 47,
+      "backendNodeId": 100,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "nuts"
+      ]
+    },
+    {
+      "nodeId": 112,
+      "parentId": 111,
+      "backendNodeId": 108,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "pistachios"
+      ]
+    },
+    {
+      "nodeId": 113,
+      "parentId": 111,
+      "backendNodeId": 109,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/nuts/pistachios_200px.jpg",
+        "alt",
+        "Pistachios"
+      ]
+    },
+    {
+      "nodeId": 115,
+      "parentId": 114,
+      "backendNodeId": 111,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Pistachios\n            "
+    },
+    {
+      "nodeId": 117,
+      "parentId": 116,
+      "backendNodeId": 113,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$9.99 / lb"
+    },
+    {
+      "nodeId": 116,
+      "parentId": 114,
+      "backendNodeId": 112,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 114,
+      "parentId": 111,
+      "backendNodeId": 110,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 111,
+      "parentId": 47,
+      "backendNodeId": 107,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "nuts"
+      ]
+    },
+    {
+      "nodeId": 119,
+      "parentId": 118,
+      "backendNodeId": 115,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "roasted-cashews"
+      ]
+    },
+    {
+      "nodeId": 120,
+      "parentId": 118,
+      "backendNodeId": 116,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/nuts/roasted-cashews_200px.jpg",
+        "alt",
+        "Roasted Cashews"
+      ]
+    },
+    {
+      "nodeId": 122,
+      "parentId": 121,
+      "backendNodeId": 118,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Roasted Cashews\n            "
+    },
+    {
+      "nodeId": 124,
+      "parentId": 123,
+      "backendNodeId": 120,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$12.89 / lb"
+    },
+    {
+      "nodeId": 123,
+      "parentId": 121,
+      "backendNodeId": 119,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 121,
+      "parentId": 118,
+      "backendNodeId": 117,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 118,
+      "parentId": 47,
+      "backendNodeId": 114,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "nuts"
+      ]
+    },
+    {
+      "nodeId": 126,
+      "parentId": 125,
+      "backendNodeId": 122,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "sunflower-seeds"
+      ]
+    },
+    {
+      "nodeId": 127,
+      "parentId": 125,
+      "backendNodeId": 123,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/nuts/sunflower-seeds_200px.jpg",
+        "alt",
+        "Sunflower Seeds"
+      ]
+    },
+    {
+      "nodeId": 129,
+      "parentId": 128,
+      "backendNodeId": 125,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Sunflower Seeds\n            "
+    },
+    {
+      "nodeId": 131,
+      "parentId": 130,
+      "backendNodeId": 127,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$1.49 / lb"
+    },
+    {
+      "nodeId": 130,
+      "parentId": 128,
+      "backendNodeId": 126,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 128,
+      "parentId": 125,
+      "backendNodeId": 124,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 125,
+      "parentId": 47,
+      "backendNodeId": 121,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "nuts"
+      ]
+    },
+    {
+      "nodeId": 133,
+      "parentId": 132,
+      "backendNodeId": 129,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "toasted-pumpkin-seeds"
+      ]
+    },
+    {
+      "nodeId": 134,
+      "parentId": 132,
+      "backendNodeId": 130,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/nuts/toasted-pumpkin-seeds_200px.jpg",
+        "alt",
+        "Toasted Pumpkin Seeds"
+      ]
+    },
+    {
+      "nodeId": 136,
+      "parentId": 135,
+      "backendNodeId": 132,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Toasted Pumpkin Seeds\n            "
+    },
+    {
+      "nodeId": 138,
+      "parentId": 137,
+      "backendNodeId": 134,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$2.99 / lb"
+    },
+    {
+      "nodeId": 137,
+      "parentId": 135,
+      "backendNodeId": 133,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 135,
+      "parentId": 132,
+      "backendNodeId": 131,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 132,
+      "parentId": 47,
+      "backendNodeId": 128,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "nuts"
+      ]
+    },
+    {
+      "nodeId": 140,
+      "parentId": 139,
+      "backendNodeId": 136,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "egg-noodles"
+      ]
+    },
+    {
+      "nodeId": 141,
+      "parentId": 139,
+      "backendNodeId": 137,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/pasta/egg-noodles_200px.jpg",
+        "alt",
+        "Egg Noodles"
+      ]
+    },
+    {
+      "nodeId": 143,
+      "parentId": 142,
+      "backendNodeId": 139,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Egg Noodles\n            "
+    },
+    {
+      "nodeId": 145,
+      "parentId": 144,
+      "backendNodeId": 141,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$0.79 / lb"
+    },
+    {
+      "nodeId": 144,
+      "parentId": 142,
+      "backendNodeId": 140,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 142,
+      "parentId": 139,
+      "backendNodeId": 138,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 139,
+      "parentId": 47,
+      "backendNodeId": 135,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "pasta"
+      ]
+    },
+    {
+      "nodeId": 147,
+      "parentId": 146,
+      "backendNodeId": 143,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "jasmine-rice"
+      ]
+    },
+    {
+      "nodeId": 148,
+      "parentId": 146,
+      "backendNodeId": 144,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/pasta/jasmine-rice_200px.jpg",
+        "alt",
+        "Jasmine Rice"
+      ]
+    },
+    {
+      "nodeId": 150,
+      "parentId": 149,
+      "backendNodeId": 146,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Jasmine Rice\n            "
+    },
+    {
+      "nodeId": 152,
+      "parentId": 151,
+      "backendNodeId": 148,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$0.79 / lb"
+    },
+    {
+      "nodeId": 151,
+      "parentId": 149,
+      "backendNodeId": 147,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 149,
+      "parentId": 146,
+      "backendNodeId": 145,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 146,
+      "parentId": 47,
+      "backendNodeId": 142,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "pasta"
+      ]
+    },
+    {
+      "nodeId": 154,
+      "parentId": 153,
+      "backendNodeId": 150,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "macaroni"
+      ]
+    },
+    {
+      "nodeId": 155,
+      "parentId": 153,
+      "backendNodeId": 151,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/pasta/macaroni_200px.jpg",
+        "alt",
+        "Macaroni"
+      ]
+    },
+    {
+      "nodeId": 157,
+      "parentId": 156,
+      "backendNodeId": 153,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Macaroni\n            "
+    },
+    {
+      "nodeId": 159,
+      "parentId": 158,
+      "backendNodeId": 155,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$0.49 / lb"
+    },
+    {
+      "nodeId": 158,
+      "parentId": 156,
+      "backendNodeId": 154,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 156,
+      "parentId": 153,
+      "backendNodeId": 152,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 153,
+      "parentId": 47,
+      "backendNodeId": 149,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "pasta"
+      ]
+    },
+    {
+      "nodeId": 161,
+      "parentId": 160,
+      "backendNodeId": 157,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "mini-shells"
+      ]
+    },
+    {
+      "nodeId": 162,
+      "parentId": 160,
+      "backendNodeId": 158,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/pasta/mini-shells_200px.jpg",
+        "alt",
+        "Mini Shells"
+      ]
+    },
+    {
+      "nodeId": 164,
+      "parentId": 163,
+      "backendNodeId": 160,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Mini Shells\n            "
+    },
+    {
+      "nodeId": 166,
+      "parentId": 165,
+      "backendNodeId": 162,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$0.49 / lb"
+    },
+    {
+      "nodeId": 165,
+      "parentId": 163,
+      "backendNodeId": 161,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 163,
+      "parentId": 160,
+      "backendNodeId": 159,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 160,
+      "parentId": 47,
+      "backendNodeId": 156,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "pasta"
+      ]
+    },
+    {
+      "nodeId": 168,
+      "parentId": 167,
+      "backendNodeId": 164,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "penne"
+      ]
+    },
+    {
+      "nodeId": 169,
+      "parentId": 167,
+      "backendNodeId": 165,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/pasta/penne_200px.jpg",
+        "alt",
+        "Penne"
+      ]
+    },
+    {
+      "nodeId": 171,
+      "parentId": 170,
+      "backendNodeId": 167,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Penne\n            "
+    },
+    {
+      "nodeId": 173,
+      "parentId": 172,
+      "backendNodeId": 169,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$0.49 / lb"
+    },
+    {
+      "nodeId": 172,
+      "parentId": 170,
+      "backendNodeId": 168,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 170,
+      "parentId": 167,
+      "backendNodeId": 166,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 167,
+      "parentId": 47,
+      "backendNodeId": 163,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "pasta"
+      ]
+    },
+    {
+      "nodeId": 175,
+      "parentId": 174,
+      "backendNodeId": 171,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "rotini"
+      ]
+    },
+    {
+      "nodeId": 176,
+      "parentId": 174,
+      "backendNodeId": 172,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/pasta/rotini_200px.jpg",
+        "alt",
+        "Rotini"
+      ]
+    },
+    {
+      "nodeId": 178,
+      "parentId": 177,
+      "backendNodeId": 174,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Rotini\n            "
+    },
+    {
+      "nodeId": 180,
+      "parentId": 179,
+      "backendNodeId": 176,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$0.49 / lb"
+    },
+    {
+      "nodeId": 179,
+      "parentId": 177,
+      "backendNodeId": 175,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 177,
+      "parentId": 174,
+      "backendNodeId": 173,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 174,
+      "parentId": 47,
+      "backendNodeId": 170,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "pasta"
+      ]
+    },
+    {
+      "nodeId": 182,
+      "parentId": 181,
+      "backendNodeId": 178,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "short-grain-brown-rice"
+      ]
+    },
+    {
+      "nodeId": 183,
+      "parentId": 181,
+      "backendNodeId": 179,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/pasta/short-grain-brown-rice_200px.jpg",
+        "alt",
+        "Short Grain Brown Rice"
+      ]
+    },
+    {
+      "nodeId": 185,
+      "parentId": 184,
+      "backendNodeId": 181,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Short Grain Brown Rice\n            "
+    },
+    {
+      "nodeId": 187,
+      "parentId": 186,
+      "backendNodeId": 183,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$0.79 / lb"
+    },
+    {
+      "nodeId": 186,
+      "parentId": 184,
+      "backendNodeId": 182,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 184,
+      "parentId": 181,
+      "backendNodeId": 180,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 181,
+      "parentId": 47,
+      "backendNodeId": 177,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "pasta"
+      ]
+    },
+    {
+      "nodeId": 189,
+      "parentId": 188,
+      "backendNodeId": 185,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "avocados"
+      ]
+    },
+    {
+      "nodeId": 190,
+      "parentId": 188,
+      "backendNodeId": 186,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/avocados_200px.jpg",
+        "alt",
+        "Avocados"
+      ]
+    },
+    {
+      "nodeId": 192,
+      "parentId": 191,
+      "backendNodeId": 188,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Avocados\n            "
+    },
+    {
+      "nodeId": 194,
+      "parentId": 193,
+      "backendNodeId": 190,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$1.29 / each"
+    },
+    {
+      "nodeId": 193,
+      "parentId": 191,
+      "backendNodeId": 189,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 191,
+      "parentId": 188,
+      "backendNodeId": 187,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 188,
+      "parentId": 47,
+      "backendNodeId": 184,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 196,
+      "parentId": 195,
+      "backendNodeId": 192,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "bell-peppers"
+      ]
+    },
+    {
+      "nodeId": 197,
+      "parentId": 195,
+      "backendNodeId": 193,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/bell-peppers_200px.jpg",
+        "alt",
+        "Bell Peppers"
+      ]
+    },
+    {
+      "nodeId": 199,
+      "parentId": 198,
+      "backendNodeId": 195,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Bell Peppers\n            "
+    },
+    {
+      "nodeId": 201,
+      "parentId": 200,
+      "backendNodeId": 197,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$1.49 / each"
+    },
+    {
+      "nodeId": 200,
+      "parentId": 198,
+      "backendNodeId": 196,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 198,
+      "parentId": 195,
+      "backendNodeId": 194,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 195,
+      "parentId": 47,
+      "backendNodeId": 191,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 203,
+      "parentId": 202,
+      "backendNodeId": 199,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "brussels-sprouts"
+      ]
+    },
+    {
+      "nodeId": 204,
+      "parentId": 202,
+      "backendNodeId": 200,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/brussels-sprouts_200px.jpg",
+        "alt",
+        "Brussels Sprouts"
+      ]
+    },
+    {
+      "nodeId": 206,
+      "parentId": 205,
+      "backendNodeId": 202,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Brussels Sprouts\n            "
+    },
+    {
+      "nodeId": 208,
+      "parentId": 207,
+      "backendNodeId": 204,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$2.99 / lb"
+    },
+    {
+      "nodeId": 207,
+      "parentId": 205,
+      "backendNodeId": 203,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 205,
+      "parentId": 202,
+      "backendNodeId": 201,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 202,
+      "parentId": 47,
+      "backendNodeId": 198,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 210,
+      "parentId": 209,
+      "backendNodeId": 206,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "concord-grapes"
+      ]
+    },
+    {
+      "nodeId": 211,
+      "parentId": 209,
+      "backendNodeId": 207,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/concord-grapes_200px.jpg",
+        "alt",
+        "Concord Grapes"
+      ]
+    },
+    {
+      "nodeId": 213,
+      "parentId": 212,
+      "backendNodeId": 209,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Concord Grapes\n            "
+    },
+    {
+      "nodeId": 215,
+      "parentId": 214,
+      "backendNodeId": 211,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$2.49 / each"
+    },
+    {
+      "nodeId": 214,
+      "parentId": 212,
+      "backendNodeId": 210,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 212,
+      "parentId": 209,
+      "backendNodeId": 208,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 209,
+      "parentId": 47,
+      "backendNodeId": 205,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 217,
+      "parentId": 216,
+      "backendNodeId": 213,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "cranberries"
+      ]
+    },
+    {
+      "nodeId": 218,
+      "parentId": 216,
+      "backendNodeId": 214,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/cranberries_200px.jpg",
+        "alt",
+        "Cranberries"
+      ]
+    },
+    {
+      "nodeId": 220,
+      "parentId": 219,
+      "backendNodeId": 216,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Cranberries\n            "
+    },
+    {
+      "nodeId": 222,
+      "parentId": 221,
+      "backendNodeId": 218,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$2.49 / lb"
+    },
+    {
+      "nodeId": 221,
+      "parentId": 219,
+      "backendNodeId": 217,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 219,
+      "parentId": 216,
+      "backendNodeId": 215,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 216,
+      "parentId": 47,
+      "backendNodeId": 212,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 224,
+      "parentId": 223,
+      "backendNodeId": 220,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "eggplant"
+      ]
+    },
+    {
+      "nodeId": 225,
+      "parentId": 223,
+      "backendNodeId": 221,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/eggplant_200px.jpg",
+        "alt",
+        "Eggplant"
+      ]
+    },
+    {
+      "nodeId": 227,
+      "parentId": 226,
+      "backendNodeId": 223,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Eggplant\n            "
+    },
+    {
+      "nodeId": 229,
+      "parentId": 228,
+      "backendNodeId": 225,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$1.49 / each"
+    },
+    {
+      "nodeId": 228,
+      "parentId": 226,
+      "backendNodeId": 224,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 226,
+      "parentId": 223,
+      "backendNodeId": 222,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 223,
+      "parentId": 47,
+      "backendNodeId": 219,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 231,
+      "parentId": 230,
+      "backendNodeId": 227,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "gala-apples"
+      ]
+    },
+    {
+      "nodeId": 232,
+      "parentId": 230,
+      "backendNodeId": 228,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/gala-apples_200px.jpg",
+        "alt",
+        "Gala Apples"
+      ]
+    },
+    {
+      "nodeId": 234,
+      "parentId": 233,
+      "backendNodeId": 230,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Gala Apples\n            "
+    },
+    {
+      "nodeId": 236,
+      "parentId": 235,
+      "backendNodeId": 232,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$1.49 / lb"
+    },
+    {
+      "nodeId": 235,
+      "parentId": 233,
+      "backendNodeId": 231,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 233,
+      "parentId": 230,
+      "backendNodeId": 229,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 230,
+      "parentId": 47,
+      "backendNodeId": 226,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 238,
+      "parentId": 237,
+      "backendNodeId": 234,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "granny-smith-apples"
+      ]
+    },
+    {
+      "nodeId": 239,
+      "parentId": 237,
+      "backendNodeId": 235,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/granny-smith-apples_200px.jpg",
+        "alt",
+        "Granny Smith Apples"
+      ]
+    },
+    {
+      "nodeId": 241,
+      "parentId": 240,
+      "backendNodeId": 237,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Granny Smith Apples\n            "
+    },
+    {
+      "nodeId": 243,
+      "parentId": 242,
+      "backendNodeId": 239,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$1.69 / lb"
+    },
+    {
+      "nodeId": 242,
+      "parentId": 240,
+      "backendNodeId": 238,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 240,
+      "parentId": 237,
+      "backendNodeId": 236,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 237,
+      "parentId": 47,
+      "backendNodeId": 233,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 245,
+      "parentId": 244,
+      "backendNodeId": 241,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "grapefruit"
+      ]
+    },
+    {
+      "nodeId": 246,
+      "parentId": 244,
+      "backendNodeId": 242,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/grapefruit_200px.jpg",
+        "alt",
+        "Grapefruit"
+      ]
+    },
+    {
+      "nodeId": 248,
+      "parentId": 247,
+      "backendNodeId": 244,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Grapefruit\n            "
+    },
+    {
+      "nodeId": 250,
+      "parentId": 249,
+      "backendNodeId": 246,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$0.99 / lb"
+    },
+    {
+      "nodeId": 249,
+      "parentId": 247,
+      "backendNodeId": 245,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 247,
+      "parentId": 244,
+      "backendNodeId": 243,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 244,
+      "parentId": 47,
+      "backendNodeId": 240,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 252,
+      "parentId": 251,
+      "backendNodeId": 248,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "green-tomatoes"
+      ]
+    },
+    {
+      "nodeId": 253,
+      "parentId": 251,
+      "backendNodeId": 249,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/green-tomatoes_200px.jpg",
+        "alt",
+        "Green Tomatoes"
+      ]
+    },
+    {
+      "nodeId": 255,
+      "parentId": 254,
+      "backendNodeId": 251,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Green Tomatoes\n            "
+    },
+    {
+      "nodeId": 257,
+      "parentId": 256,
+      "backendNodeId": 253,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$2.69 / lb"
+    },
+    {
+      "nodeId": 256,
+      "parentId": 254,
+      "backendNodeId": 252,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 254,
+      "parentId": 251,
+      "backendNodeId": 250,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 251,
+      "parentId": 47,
+      "backendNodeId": 247,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 259,
+      "parentId": 258,
+      "backendNodeId": 255,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "limes"
+      ]
+    },
+    {
+      "nodeId": 260,
+      "parentId": 258,
+      "backendNodeId": 256,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/limes_200px.jpg",
+        "alt",
+        "Limes"
+      ]
+    },
+    {
+      "nodeId": 262,
+      "parentId": 261,
+      "backendNodeId": 258,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Limes\n            "
+    },
+    {
+      "nodeId": 264,
+      "parentId": 263,
+      "backendNodeId": 260,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$0.59 / each"
+    },
+    {
+      "nodeId": 263,
+      "parentId": 261,
+      "backendNodeId": 259,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 261,
+      "parentId": 258,
+      "backendNodeId": 257,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 258,
+      "parentId": 47,
+      "backendNodeId": 254,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 266,
+      "parentId": 265,
+      "backendNodeId": 262,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "mushrooms"
+      ]
+    },
+    {
+      "nodeId": 267,
+      "parentId": 265,
+      "backendNodeId": 263,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/mushrooms_200px.jpg",
+        "alt",
+        "Mushrooms"
+      ]
+    },
+    {
+      "nodeId": 269,
+      "parentId": 268,
+      "backendNodeId": 265,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Mushrooms\n            "
+    },
+    {
+      "nodeId": 271,
+      "parentId": 270,
+      "backendNodeId": 267,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$3.99 / lb"
+    },
+    {
+      "nodeId": 270,
+      "parentId": 268,
+      "backendNodeId": 266,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 268,
+      "parentId": 265,
+      "backendNodeId": 264,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 265,
+      "parentId": 47,
+      "backendNodeId": 261,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 273,
+      "parentId": 272,
+      "backendNodeId": 269,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "onions"
+      ]
+    },
+    {
+      "nodeId": 274,
+      "parentId": 272,
+      "backendNodeId": 270,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/onions_200px.jpg",
+        "alt",
+        "Onions"
+      ]
+    },
+    {
+      "nodeId": 276,
+      "parentId": 275,
+      "backendNodeId": 272,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Onions\n            "
+    },
+    {
+      "nodeId": 278,
+      "parentId": 277,
+      "backendNodeId": 274,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$0.79 / lb"
+    },
+    {
+      "nodeId": 277,
+      "parentId": 275,
+      "backendNodeId": 273,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 275,
+      "parentId": 272,
+      "backendNodeId": 271,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 272,
+      "parentId": 47,
+      "backendNodeId": 268,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 280,
+      "parentId": 279,
+      "backendNodeId": 276,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "oranges"
+      ]
+    },
+    {
+      "nodeId": 281,
+      "parentId": 279,
+      "backendNodeId": 277,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/oranges_200px.jpg",
+        "alt",
+        "Oranges"
+      ]
+    },
+    {
+      "nodeId": 283,
+      "parentId": 282,
+      "backendNodeId": 279,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Oranges\n            "
+    },
+    {
+      "nodeId": 285,
+      "parentId": 284,
+      "backendNodeId": 281,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$0.89 / lb"
+    },
+    {
+      "nodeId": 284,
+      "parentId": 282,
+      "backendNodeId": 280,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 282,
+      "parentId": 279,
+      "backendNodeId": 278,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 279,
+      "parentId": 47,
+      "backendNodeId": 275,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 287,
+      "parentId": 286,
+      "backendNodeId": 283,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "peaches"
+      ]
+    },
+    {
+      "nodeId": 288,
+      "parentId": 286,
+      "backendNodeId": 284,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/peach_200px.jpg",
+        "alt",
+        "Peaches"
+      ]
+    },
+    {
+      "nodeId": 290,
+      "parentId": 289,
+      "backendNodeId": 286,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Peaches\n            "
+    },
+    {
+      "nodeId": 292,
+      "parentId": 291,
+      "backendNodeId": 288,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$1.29 / each"
+    },
+    {
+      "nodeId": 291,
+      "parentId": 289,
+      "backendNodeId": 287,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 289,
+      "parentId": 286,
+      "backendNodeId": 285,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 286,
+      "parentId": 47,
+      "backendNodeId": 282,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 294,
+      "parentId": 293,
+      "backendNodeId": 290,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "potatoes"
+      ]
+    },
+    {
+      "nodeId": 295,
+      "parentId": 293,
+      "backendNodeId": 291,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/potatoes_200px.jpg",
+        "alt",
+        "Potatoes"
+      ]
+    },
+    {
+      "nodeId": 297,
+      "parentId": 296,
+      "backendNodeId": 293,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Potatoes\n            "
+    },
+    {
+      "nodeId": 299,
+      "parentId": 298,
+      "backendNodeId": 295,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$0.79 / lb"
+    },
+    {
+      "nodeId": 298,
+      "parentId": 296,
+      "backendNodeId": 294,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 296,
+      "parentId": 293,
+      "backendNodeId": 292,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 293,
+      "parentId": 47,
+      "backendNodeId": 289,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 301,
+      "parentId": 300,
+      "backendNodeId": 297,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "red-apples"
+      ]
+    },
+    {
+      "nodeId": 302,
+      "parentId": 300,
+      "backendNodeId": 298,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/red-apples_200px.jpg",
+        "alt",
+        "Red Apples"
+      ]
+    },
+    {
+      "nodeId": 304,
+      "parentId": 303,
+      "backendNodeId": 300,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Red Apples\n            "
+    },
+    {
+      "nodeId": 306,
+      "parentId": 305,
+      "backendNodeId": 302,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$1.69 / lb"
+    },
+    {
+      "nodeId": 305,
+      "parentId": 303,
+      "backendNodeId": 301,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 303,
+      "parentId": 300,
+      "backendNodeId": 299,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 300,
+      "parentId": 47,
+      "backendNodeId": 296,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 308,
+      "parentId": 307,
+      "backendNodeId": 304,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "red-cherries"
+      ]
+    },
+    {
+      "nodeId": 309,
+      "parentId": 307,
+      "backendNodeId": 305,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/red-cherries_200px.jpg",
+        "alt",
+        "Red Cherries"
+      ]
+    },
+    {
+      "nodeId": 311,
+      "parentId": 310,
+      "backendNodeId": 307,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Red Cherries\n            "
+    },
+    {
+      "nodeId": 313,
+      "parentId": 312,
+      "backendNodeId": 309,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$7.99 / lb"
+    },
+    {
+      "nodeId": 312,
+      "parentId": 310,
+      "backendNodeId": 308,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 310,
+      "parentId": 307,
+      "backendNodeId": 306,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 307,
+      "parentId": 47,
+      "backendNodeId": 303,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 315,
+      "parentId": 314,
+      "backendNodeId": 311,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "spinach"
+      ]
+    },
+    {
+      "nodeId": 316,
+      "parentId": 314,
+      "backendNodeId": 312,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/spinach_200px.jpg",
+        "alt",
+        "Spinach"
+      ]
+    },
+    {
+      "nodeId": 318,
+      "parentId": 317,
+      "backendNodeId": 314,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Spinach\n            "
+    },
+    {
+      "nodeId": 320,
+      "parentId": 319,
+      "backendNodeId": 316,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$2.49 / lb"
+    },
+    {
+      "nodeId": 319,
+      "parentId": 317,
+      "backendNodeId": 315,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 317,
+      "parentId": 314,
+      "backendNodeId": 313,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 314,
+      "parentId": 47,
+      "backendNodeId": 310,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 322,
+      "parentId": 321,
+      "backendNodeId": 318,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "tangerines"
+      ]
+    },
+    {
+      "nodeId": 323,
+      "parentId": 321,
+      "backendNodeId": 319,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/tangerines_200px.jpg",
+        "alt",
+        "Tangerines"
+      ]
+    },
+    {
+      "nodeId": 325,
+      "parentId": 324,
+      "backendNodeId": 321,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Tangerines\n            "
+    },
+    {
+      "nodeId": 327,
+      "parentId": 326,
+      "backendNodeId": 323,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$2.89 / lb"
+    },
+    {
+      "nodeId": 326,
+      "parentId": 324,
+      "backendNodeId": 322,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 324,
+      "parentId": 321,
+      "backendNodeId": 320,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 321,
+      "parentId": 47,
+      "backendNodeId": 317,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 329,
+      "parentId": 328,
+      "backendNodeId": 325,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "tomatoes"
+      ]
+    },
+    {
+      "nodeId": 330,
+      "parentId": 328,
+      "backendNodeId": 326,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/tomatoes_200px.jpg",
+        "alt",
+        "Tomatoes"
+      ]
+    },
+    {
+      "nodeId": 332,
+      "parentId": 331,
+      "backendNodeId": 328,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Tomatoes\n            "
+    },
+    {
+      "nodeId": 334,
+      "parentId": 333,
+      "backendNodeId": 330,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$1.89 / lb"
+    },
+    {
+      "nodeId": 333,
+      "parentId": 331,
+      "backendNodeId": 329,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 331,
+      "parentId": 328,
+      "backendNodeId": 327,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 328,
+      "parentId": 47,
+      "backendNodeId": 324,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 336,
+      "parentId": 335,
+      "backendNodeId": 332,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "vine-ripened-tomatoes"
+      ]
+    },
+    {
+      "nodeId": 337,
+      "parentId": 335,
+      "backendNodeId": 333,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/vine-ripened-tomatoes_200px.jpg",
+        "alt",
+        "Vine-Ripened Tomatoes"
+      ]
+    },
+    {
+      "nodeId": 339,
+      "parentId": 338,
+      "backendNodeId": 335,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Vine-Ripened Tomatoes\n            "
+    },
+    {
+      "nodeId": 341,
+      "parentId": 340,
+      "backendNodeId": 337,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$2.89 / lb"
+    },
+    {
+      "nodeId": 340,
+      "parentId": 338,
+      "backendNodeId": 336,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 338,
+      "parentId": 335,
+      "backendNodeId": 334,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 335,
+      "parentId": 47,
+      "backendNodeId": 331,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 343,
+      "parentId": 342,
+      "backendNodeId": 339,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "yams"
+      ]
+    },
+    {
+      "nodeId": 344,
+      "parentId": 342,
+      "backendNodeId": 340,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/yams_200px.jpg",
+        "alt",
+        "Yams"
+      ]
+    },
+    {
+      "nodeId": 346,
+      "parentId": 345,
+      "backendNodeId": 342,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Yams\n            "
+    },
+    {
+      "nodeId": 348,
+      "parentId": 347,
+      "backendNodeId": 344,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$0.99 / lb"
+    },
+    {
+      "nodeId": 347,
+      "parentId": 345,
+      "backendNodeId": 343,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 345,
+      "parentId": 342,
+      "backendNodeId": 341,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 342,
+      "parentId": 47,
+      "backendNodeId": 338,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 350,
+      "parentId": 349,
+      "backendNodeId": 346,
+      "nodeType": 1,
+      "nodeName": "INPUT",
+      "localName": "input",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "type",
+        "checkbox",
+        "value",
+        "yukon-gold-potatoes"
+      ]
+    },
+    {
+      "nodeId": 351,
+      "parentId": 349,
+      "backendNodeId": 347,
+      "nodeType": 1,
+      "nodeName": "IMG",
+      "localName": "img",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "src",
+        "img/produce/yukon-gold-potatoes_200px.jpg",
+        "alt",
+        "Yukon Gold Potatoes"
+      ]
+    },
+    {
+      "nodeId": 353,
+      "parentId": 352,
+      "backendNodeId": 349,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "\n            Yukon Gold Potatoes\n            "
+    },
+    {
+      "nodeId": 355,
+      "parentId": 354,
+      "backendNodeId": 351,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$1.49 / lb"
+    },
+    {
+      "nodeId": 354,
+      "parentId": 352,
+      "backendNodeId": 350,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "price"
+      ]
+    },
+    {
+      "nodeId": 352,
+      "parentId": 349,
+      "backendNodeId": 348,
+      "nodeType": 1,
+      "nodeName": "P",
+      "localName": "p",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 349,
+      "parentId": 47,
+      "backendNodeId": 345,
+      "nodeType": 1,
+      "nodeName": "LABEL",
+      "localName": "label",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "item",
+        "data-category",
+        "produce"
+      ]
+    },
+    {
+      "nodeId": 47,
+      "parentId": 30,
+      "backendNodeId": 43,
+      "nodeType": 1,
+      "nodeName": "MAIN",
+      "localName": "main",
+      "nodeValue": "",
+      "childNodeCount": 43,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 356,
+      "parentId": 30,
+      "backendNodeId": 352,
+      "nodeType": 8,
+      "nodeName": "#comment",
+      "localName": "",
+      "nodeValue": " Shopping Cart "
+    },
+    {
+      "nodeId": 359,
+      "parentId": 358,
+      "backendNodeId": 355,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "Purchase"
+    },
+    {
+      "nodeId": 358,
+      "parentId": 357,
+      "backendNodeId": 354,
+      "nodeType": 1,
+      "nodeName": "BUTTON",
+      "localName": "button",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "purchase-button"
+      ]
+    },
+    {
+      "nodeId": 362,
+      "parentId": 361,
+      "backendNodeId": 358,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "Your Order"
+    },
+    {
+      "nodeId": 361,
+      "parentId": 360,
+      "backendNodeId": 357,
+      "nodeType": 1,
+      "nodeName": "CAPTION",
+      "localName": "caption",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 366,
+      "parentId": 365,
+      "backendNodeId": 362,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "Total"
+    },
+    {
+      "nodeId": 365,
+      "parentId": 364,
+      "backendNodeId": 361,
+      "nodeType": 1,
+      "nodeName": "TD",
+      "localName": "td",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 368,
+      "parentId": 367,
+      "backendNodeId": 364,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "$0.00"
+    },
+    {
+      "nodeId": 367,
+      "parentId": 364,
+      "backendNodeId": 363,
+      "nodeType": 1,
+      "nodeName": "TD",
+      "localName": "td",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "class",
+        "cart-total"
+      ]
+    },
+    {
+      "nodeId": 364,
+      "parentId": 363,
+      "backendNodeId": 360,
+      "nodeType": 1,
+      "nodeName": "TR",
+      "localName": "tr",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 363,
+      "parentId": 360,
+      "backendNodeId": 359,
+      "nodeType": 1,
+      "nodeName": "THEAD",
+      "localName": "thead",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 369,
+      "parentId": 360,
+      "backendNodeId": 365,
+      "nodeType": 1,
+      "nodeName": "TBODY",
+      "localName": "tbody",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 360,
+      "parentId": 357,
+      "backendNodeId": 356,
+      "nodeType": 1,
+      "nodeName": "TABLE",
+      "localName": "table",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "cart-table"
+      ]
+    },
+    {
+      "nodeId": 374,
+      "parentId": 373,
+      "backendNodeId": 370,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "Place Order"
+    },
+    {
+      "nodeId": 373,
+      "parentId": 372,
+      "backendNodeId": 369,
+      "nodeType": 1,
+      "nodeName": "BUTTON",
+      "localName": "button",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "id",
+        "place-order-button"
+      ]
+    },
+    {
+      "nodeId": 376,
+      "parentId": 375,
+      "backendNodeId": 372,
+      "nodeType": 3,
+      "nodeName": "#text",
+      "localName": "",
+      "nodeValue": "Cancel"
+    },
+    {
+      "nodeId": 375,
+      "parentId": 372,
+      "backendNodeId": 371,
+      "nodeType": 1,
+      "nodeName": "BUTTON",
+      "localName": "button",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": [
+        "id",
+        "cancel-order-button"
+      ]
+    },
+    {
+      "nodeId": 372,
+      "parentId": 371,
+      "backendNodeId": 368,
+      "nodeType": 1,
+      "nodeName": "SPAN",
+      "localName": "span",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": [
+        "class",
+        "dialog-buttons"
+      ]
+    },
+    {
+      "nodeId": 371,
+      "parentId": 370,
+      "backendNodeId": 367,
+      "nodeType": 1,
+      "nodeName": "HEADER",
+      "localName": "header",
+      "nodeValue": "",
+      "childNodeCount": 1,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 377,
+      "parentId": 370,
+      "backendNodeId": 373,
+      "nodeType": 1,
+      "nodeName": "DIV",
+      "localName": "div",
+      "nodeValue": "",
+      "childNodeCount": 0,
+      "children": [],
+      "attributes": [
+        "class",
+        "dialog-body"
+      ]
+    },
+    {
+      "nodeId": 370,
+      "parentId": 357,
+      "backendNodeId": 366,
+      "nodeType": 1,
+      "nodeName": "DIALOG",
+      "localName": "dialog",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": [
+        "id",
+        "checkout-dialog"
+      ]
+    },
+    {
+      "nodeId": 357,
+      "parentId": 30,
+      "backendNodeId": 353,
+      "nodeType": 1,
+      "nodeName": "DIV",
+      "localName": "div",
+      "nodeValue": "",
+      "childNodeCount": 3,
+      "children": [],
+      "attributes": [
+        "class",
+        "cart"
+      ]
+    },
+    {
+      "nodeId": 30,
+      "parentId": 24,
+      "backendNodeId": 26,
+      "nodeType": 1,
+      "nodeName": "DIV",
+      "localName": "div",
+      "nodeValue": "",
+      "childNodeCount": 6,
+      "children": [],
+      "attributes": [
+        "class",
+        "container"
+      ]
+    },
+    {
+      "nodeId": 24,
+      "parentId": 8,
+      "backendNodeId": 6,
+      "nodeType": 1,
+      "nodeName": "BODY",
+      "localName": "body",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": []
+    },
+    {
+      "nodeId": 8,
+      "parentId": 6,
+      "backendNodeId": 4,
+      "nodeType": 1,
+      "nodeName": "HTML",
+      "localName": "html",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "attributes": [
+        "lang",
+        "en"
+      ],
+      "frameId": "FE9085796A4DDE3E69643EE3F710E768"
+    },
+    {
+      "nodeId": 6,
+      "backendNodeId": 2,
+      "nodeType": 9,
+      "nodeName": "#document",
+      "localName": "",
+      "nodeValue": "",
+      "childNodeCount": 2,
+      "children": [],
+      "documentURL": "https://thirstyhead.com/groceryworks/",
+      "baseURL": "https://thirstyhead.com/groceryworks/",
+      "xmlVersion": ""
+    }
+  ]
+}
+[32m ✔ runCoverage ran successfully[39m
+[32m ✔ Browser closed[39m

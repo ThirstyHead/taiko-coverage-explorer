@@ -1,0 +1,74 @@
+
+> taiko-coverage-explorer@0.1.0 test /Users/scott/code/local/taiko-coverage-explorer
+> taiko test/test.js
+
+[32m ✔ Browser opened[39m
+[32m ✔ Navigated to URL http://thirstyhead.com/groceryworks[39m
+{
+  "root": {
+    "nodeId": 6,
+    "backendNodeId": 2,
+    "nodeType": 9,
+    "nodeName": "#document",
+    "localName": "",
+    "nodeValue": "",
+    "childNodeCount": 2,
+    "children": [
+      {
+        "nodeId": 7,
+        "parentId": 6,
+        "backendNodeId": 3,
+        "nodeType": 10,
+        "nodeName": "html",
+        "localName": "",
+        "nodeValue": "",
+        "publicId": "",
+        "systemId": ""
+      },
+      {
+        "nodeId": 8,
+        "parentId": 6,
+        "backendNodeId": 4,
+        "nodeType": 1,
+        "nodeName": "HTML",
+        "localName": "html",
+        "nodeValue": "",
+        "childNodeCount": 2,
+        "children": [
+          {
+            "nodeId": 9,
+            "parentId": 8,
+            "backendNodeId": 5,
+            "nodeType": 1,
+            "nodeName": "HEAD",
+            "localName": "head",
+            "nodeValue": "",
+            "childNodeCount": 12,
+            "attributes": []
+          },
+          {
+            "nodeId": 10,
+            "parentId": 8,
+            "backendNodeId": 6,
+            "nodeType": 1,
+            "nodeName": "BODY",
+            "localName": "body",
+            "nodeValue": "",
+            "childNodeCount": 2,
+            "attributes": []
+          }
+        ],
+        "attributes": [
+          "lang",
+          "en"
+        ],
+        "frameId": "FB1FE51B52F66FBCF93D944730F55345"
+      }
+    ],
+    "documentURL": "https://thirstyhead.com/groceryworks/",
+    "baseURL": "https://thirstyhead.com/groceryworks/",
+    "xmlVersion": ""
+  }
+}
+[32m ✔ runCoverage ran successfully[39m
+[32m ✔ Browser closed[39m
