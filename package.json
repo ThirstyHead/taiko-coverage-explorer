@@ -1,0 +1,19 @@
+{
+  "name": "taiko-coverage-explorer",
+  "version": "0.1.0",
+  "description": "A sample app that uses the taiko-coverage plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThirstyHead/taiko-coverage-explorer.git"
+  },
+  "author": "Scott Davis <scott.davis@thoughtworks.com>",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/ThirstyHead/taiko-coverage-explorer/issues"
+  },
+  "homepage": "https://github.com/ThirstyHead/taiko-coverage-explorer#readme"
+}
